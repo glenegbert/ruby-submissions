@@ -22,29 +22,24 @@ This app has two target audiences:
 * Any other integrations? GPS to determine current location
 
 **************************************************************************************************************
-
 ### Breath of Fresh Air
 
 ### Pitch
 
-Compare air quality for different zip codes.
+Get a notification when the air quality in your area is likely to trigger health problems for you.
 
 ### Description
 
-This app lets users compare summary information about air quality in different zip codes in the US. The data
-will be graphically represented.
+Users come to the website and enter in: locations of their choice, phone or email, and select from 1 or more of 6 general health concern categories (like this http://www.epa.gov/aircompare/health.htm ).  They then elect to receive notifications when observed conditions and/or forecasted conditions in the geographic areas they listed are at levels that are likely to aggravate the medical conditions they identified. Additionally users will be able to generate a data visualization that shows annual trends related to their specific health concern category for the geographic area they identified.
 
 ### Target Audience
 
-This application will be used by individuals interested in evaluating various locations
-with regard to air quality. These might be individuals who have conditions that are aggravated by poor air quality
-or those who just want to they are making healthy choices with regard to the air
-they breath.
+This application will be used by individuals who suffer from health problems that are aggrevated by poor air quality.
 
 ### Integrations
 
 * What OAuth provider makes sense for this audience? Google - saved searches
-* What Data.gov data or API will you use? https://ofmext.epa.gov/AQDMRS/aqdmrs.html
+* What Data.gov data or API will you use? http://www.airnowapi.org/docs/AirNowAPIFactSheet.pdf
 * Any other integrations?
 
 ******************************************************************************************************************
