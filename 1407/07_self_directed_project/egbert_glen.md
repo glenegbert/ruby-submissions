@@ -1,27 +1,4 @@
-### Go Play
 
-### Pitch
-
-This app lets you find parks that are nearest your current location or an addresses of you choice in Denver.
-
-### Description
-
-People need to find out where they can go to hike, play with their kids, or recreate in other ways.  This app will provide
-a web service that allows them to locate the nearest parks to a given location.
-
-### Target Audience
-
-This app has two target audiences:
-1. people looking to find parks near their current location.
-2. people attempting to determine the proximity of parks to neighborhoods they are considering moving to
-
-### Integrations
-
-* What OAuth provider makes sense for this audience? Google
-* What Data.gov data or API will you use? http://data.denvergov.org/dataset/city-and-county-of-denver-parks
-* Any other integrations? GPS to determine current location
-
-**************************************************************************************************************
 ### Breath of Fresh Air
 
 ### Pitch
@@ -43,27 +20,26 @@ This application will be used by individuals who suffer from health problems tha
 * Any other integrations?
 
 ******************************************************************************************************************
-### School Value Index
+### Neighborhood Finder
 
 
 ### Pitch
 
-Determine which neighborhoods in your price range have the best schools.
+Filter neighborhoods by RE price range, school quality, work commute time, education commute time.
 
 ### Description
 
-This app lets users enter in a home price range and one or more counties in Colorado.
-The app returns a list of schools ranked by school quality that are located in zip
-codes where the average home price is in the range chosen.  
+This app lets users filter neighborhoods based on their preferences for home cost, school quality, school distance, and work commute time.  The app outputs a regional map higlighting zip codes that match the user's preferences.
 
 ### Target Audience
 
 The target audience for this app is individuals planning to buy a home in the near
-future who are concerned with finding quality education for their children.
+future who are concerned with finding quality education for their children and minimizing commute time to school and work.
 
 ### Integrations
 
 * What OAuth provider makes sense for this audience? Google
-* What Data.gov data or API will you use? http://www.cde.state.co.us/schoolview
+* What Data.gov data or API will you use? 
                                           http://www.zillow.com/howto/api/APIOverview.htm
+                                          http://www.greatschools.org/api/docs/main.page
 * Any other integrations?
