@@ -18,6 +18,37 @@ This application will be used by individuals who suffer from health problems tha
 * What OAuth provider makes sense for this audience? Google - saved searches
 * What Data.gov data or API will you use? http://www.airnowapi.org/docs/AirNowAPIFactSheet.pdf
 * Any other integrations?
+* 
+
+Iteration 1 
+- Plan to Have 
+- Rough Site View Templates
+- User can select 1 location and one health issue and see current conditions and forecasts 
+- User can sign into the site with OAuth
+
+Nice to Have 
+- Set up VPS
+- clean UI
+
+Iteration 2 
+Plan to Have 
+-clean UI
+-app sends notifications
+-app exposes JSON API - that shows historically high risk days/months for a health concern and zip code 
+basic plan for Ruby gem 
+-VPS in place
+
+Nice to Have 
+-background workers
+-Ruby Gem
+
+Iteration 3 
+Plan to Have 
+-app sends notifications with background workers
+-Ruby Gem Working 
+
+Nice to Have 
+- front end bells and whistles
 
 ******************************************************************************************************************
 ### Neighborhood Finder
